@@ -89,7 +89,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_IPT2SOCKS=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_MICROSOCKS=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_SRELAY=n" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_WYY=y" >> .config #网易云解锁
+        echo "CONFIG_FIRMWARE_INCLUDE_WYY=n" >> .config #网易云解锁
         echo "CONFIG_FIRMWARE_INCLUDE_WYYBIN=n" >> .config #网易云解锁GO版本执行文件（4M多）注意固件超大小
         if [ "$m" = "K2P-5.0" ] || [ "$m" = "DIR-878-5.0" ]; then
         echo "CONFIG_FIRMWARE_INCLUDE_V2RAY=y" >> .config #v2ray二进制文件
